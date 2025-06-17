@@ -16,6 +16,7 @@ const CircleButton = styled.button`
     cursor: pointer;
     width: 80px;
     height: 80px;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 60px;
@@ -112,7 +113,7 @@ function TodoCreate() {
                 </InsertFormPositioner>
             )}
             <CircleButton onClick={onToggle} open={open}>
-                <MdAdd />
+                    <MdAdd />
             </CircleButton>
         </>
     );
